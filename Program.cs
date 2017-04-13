@@ -10,8 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Oi! Wut youu awn about m8");
-            Console.ReadKey();
+            string TheirName;
+            Console.WriteLine("What is your name?");
+            TheirName = Console.ReadLine();
+            Console.WriteLine("Hello " + TheirName);
+            Console.WriteLine("Press any key to continue . . .");
+            Console.ReadKey(); 
         }
+        
     }
 }
